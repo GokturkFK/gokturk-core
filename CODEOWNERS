@@ -1,0 +1,14 @@
+# gokturk-core, GOKTURK v0.1'den cikartilan ortak omurga.
+# Sahiplik, gokturk-deception-mesh/CODEOWNERS'taki bolusumun devamidir:
+# orada da /internal/trap ve /internal/correlate @fetihcakmak'indi.
+
+# Varsayilan
+*                  @fetihcakmak @uzunkubra50
+
+# Cyber (guvenlik cekirdegi) — donmus sozlesme ve korelasyon mantigi
+/trap/             @fetihcakmak
+/correlate/        @fetihcakmak
+
+# DevOps (platform/teslimat)
+/.github/          @uzunkubra50
+/.golangci.yml     @uzunkubra50

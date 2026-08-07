@@ -9,6 +9,16 @@ ve ondan sonraki tüm deception ürünleri (GÖKKALKAN, GÖKZİNCİR, ...) bunu
 import eder. Ayrıntılı platform yol haritası ve omurga tasarımı:
 `GOKTURKFK_ROADMAP.md` (özel repo).
 
+## Sahiplik
+
+`trap` ve `correlate` **@fetihcakmak**'ındır (güvenlik çekirdeği) — GÖKTÜRK'te
+de `internal/trap` ve `internal/correlate` onun sahipliğindeydi, bu depoya
+çıkarılırken bölüşüm değişmedi. CI/tooling **@uzunkubra50**'de. Bkz.
+[CODEOWNERS](CODEOWNERS).
+
+**Burada aktif bir görev yok** — bu depo v0.1.0'da donmuş durumda. Yapılacak
+işler aktif üründe: [gokkalkan/issues](https://github.com/GokturkFK/gokkalkan/issues).
+
 ## Sözleşme kuralı
 
 `trap` paketindeki tipler (özellikle `TripEvent`'in JSON alan adları) donmuş
