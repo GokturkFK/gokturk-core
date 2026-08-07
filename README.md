@@ -4,10 +4,16 @@ Göktürk platformunun paylaşılan Go çekirdeği: `trap` sözleşmesi (`Provid
 `TripEvent`, `Trap`, `Artifacts`, `Decoder`, `ErrNotATrip`) ve `correlate`
 korelasyon motoru (sıfır-FP, kaynak başına High→Critical kampanya birleşmesi).
 
-Bu depo tek başına bir ürün değildir — [GÖKTÜRK](https://github.com/GokturkFK/gokturk-deception-mesh)
-ve ondan sonraki tüm deception ürünleri (GÖKKALKAN, GÖKZİNCİR, ...) bunu
-import eder. Ayrıntılı platform yol haritası ve omurga tasarımı:
-`GOKTURKFK_ROADMAP.md` (özel repo).
+Bu depo tek başına bir ürün değildir. Onu import eden ürünler:
+
+| Ürün | Depo | Durum |
+|---|---|---|
+| GÖKTÜRK — deception mesh | [gokturk-deception-mesh](https://github.com/GokturkFK/gokturk-deception-mesh) | v0.1 tamamlandı |
+| GÖKKALKAN — agentic AI runtime security | [gokkalkan](https://github.com/GokturkFK/gokkalkan) | aktif geliştirme |
+
+Tasarım ilkesi: omurga bir kez burada kurulur, her ürün onun **sınırlı bir
+uzantısı** olur — tuzak türü ve sensör ürüne özeldir, sözleşme ve korelasyon
+ortaktır.
 
 ## Sahiplik
 
